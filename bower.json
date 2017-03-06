@@ -1,0 +1,23 @@
+{
+  "name": "ruston",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Pavel <pavel.syrotyna@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*",
+    "bootstrap": "^3.3.7"
+  }
+}

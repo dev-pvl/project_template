@@ -1,0 +1,23 @@
+<footer class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/common.js"></script>
+ <script>
+    /*add menu class active */
+    $('#header-nav ul li a').each(function() {
+        if ( window.location.origin + '/' + $(this).attr('href') == window.location.href) {
+            $('.main-nav ul li a').parent().removeClass('active');
+            $(this).parent().addClass('active'); 
+        }
+    });
+</script>
+</body>
+</html>

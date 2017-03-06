@@ -1,0 +1,9 @@
+/*mixins*/
+@mixin pseudo() {
+    position: absolute;
+    content: '';
+}
+@mixin mauto() {
+    margin-left: auto;
+    margin-right: auto;
+}

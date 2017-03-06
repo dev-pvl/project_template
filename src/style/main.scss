@@ -1,0 +1,19 @@
+/*
+* libs
+*/
+@import "../../bower_components/normalize.css/normalize.css";
+@import "../../bower_components/bootstrap/dist/css/bootstrap.css";
+@import "../../bower_components/slick-carousel/slick/slick.scss";
+@import "../../bower_components/slick-carousel/slick/slick-theme.scss";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+
+/*
+* Custom
+*/
+@import "partials/variables";
+@import "partials/basic";
+@import "partials/header";
+@import "partials/slider";
+@import "partials/form";
+@import "partials/footer";
+@import "partials/responsive";
